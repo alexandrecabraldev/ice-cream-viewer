@@ -1,7 +1,13 @@
+import { ContainerApplication } from "./components/ContainerApplication";
+import { Header } from "./components/Header";
+
+
 function App() {
 
   return (
-    <h1>qualquer coisa</h1>
+    <ContainerApplication>
+      <Header/>
+    </ContainerApplication>
   )
 }
 
