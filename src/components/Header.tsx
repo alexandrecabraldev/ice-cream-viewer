@@ -17,6 +17,7 @@ const HeaderContainer = styled.div`
         line-height: 3.125rem;
         margin-bottom: 1.875rem;
         letter-spacing: 0.08em;
+        text-shadow: 0 2px 2px ${props=>props.theme.textShadow};
     }
 `;
 

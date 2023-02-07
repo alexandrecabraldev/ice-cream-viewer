@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
-    body{
+    body,p,span{
         font-size: 1rem;
         font-weight: 400;
         font-family: 'Staatliches', cursive;
