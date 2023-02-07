@@ -1,21 +1,13 @@
 import styled from "styled-components"
 
-const ContainerImage = styled.div`
+const ContainerImage = styled.div<PropsImage>`
 
     position: relative;
-    //max-height: 250px;
     overflow: hidden;
     border-radius: 20px;
-
-    img{
-        width: 100%;
-        height: auto;
-        border-radius: 20px;
-        overflow: hidden;
-        //background-size: cover;
-        
-         
-    }
+    background: url(${props=>props.link});
+    background-position: center;
+    background-size: cover;
 
     span{
         text-transform: uppercase;
@@ -39,8 +31,7 @@ interface PropsImage{
 
 export function Image({link}:PropsImage){
     return(
-        <ContainerImage>
-            <img src={link} alt="" />
+        <ContainerImage link={link}>
             <span>paletas</span>
         </ContainerImage>
     )

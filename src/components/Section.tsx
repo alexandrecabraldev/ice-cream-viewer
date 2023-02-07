@@ -20,26 +20,6 @@ const ContainerPhotos = styled.div`
     gap: 2rem;
     grid-template-rows: 250px 450px 250px 450px;
 
-     /* div:nth-child(1){
-        grid-column: A;
-        background-color: red;
-    }
-
-    div:nth-child(2){
-        grid-column: B;
-        background-color: blue;
-    }
-
-    div:nth-child(3){
-        grid-column: C;
-        background-color: green;
-    }
-
-    div:nth-child(4){
-        grid-column: D;
-        background-color: yellow;
-    }  */
-
 `;
 
 export function Section(){
@@ -53,7 +33,7 @@ export function Section(){
 
                 <Image link={"https://images.unsplash.com/photo-1477505982272-ead89926a577?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"}/>
 
-                <Image link={"https://images.unsplash.com/photo-1597249536924-b226b1a1259d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80"}/>
+                <Image link={"https://images.unsplash.com/photo-1629385697093-57be2cc97fa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1061&q=80"}/>
 
                 <Image link={"https://images.unsplash.com/photo-1580915411954-282cb1b0d780?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"}/>
 
