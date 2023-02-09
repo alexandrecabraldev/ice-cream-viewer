@@ -26,13 +26,14 @@ const ContainerImage = styled.div<PropsImage>`
 
 interface PropsImage{
     link:string;
+    titleLinks?:string;
 }
 
 
-export function Image({link}:PropsImage){
+export function Image({link, titleLinks}:PropsImage){
     return(
         <ContainerImage link={link}>
-            <span>paletas</span>
+            <span>{titleLinks}</span>
         </ContainerImage>
     )
 }

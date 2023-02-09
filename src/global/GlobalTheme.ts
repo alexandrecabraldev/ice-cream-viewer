@@ -6,5 +6,6 @@ export const GlobalTheme={
     bodyColor: "#EFF1FF", 
     imageBackgroundColor: "#FEEAFA",
     white: "#FFFFFF",
-    textShadow: "rgba(0,0,0,0.25)"
+    textShadow: "rgba(0,0,0,0.25)",
+    breakPoint: "820px"
 }
