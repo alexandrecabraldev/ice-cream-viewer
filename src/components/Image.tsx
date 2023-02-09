@@ -1,4 +1,17 @@
-import styled from "styled-components"
+import styled, { keyframes } from "styled-components";
+
+
+const AnimationTextImages = keyframes`
+    0%{
+        transform: translateY(-25px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+`;
 
 const ContainerImage = styled.div<PropsImage>`
 
@@ -20,6 +33,8 @@ const ContainerImage = styled.div<PropsImage>`
         border-radius: 20px;
         line-height: 2.125rem;
         font-size: 1.25rem;
+
+        animation: ${AnimationTextImages};
     }
 `;
 

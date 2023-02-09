@@ -1,5 +1,17 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { Image } from "./Image";
+
+const AnimationImages = keyframes`
+    0%{
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+`;
 
 const ContainerSection = styled.div`
 
@@ -27,6 +39,7 @@ const ContainerPhotos = styled.div`
     display: grid;
     gap: 2rem;
     grid-template-rows: 250px 450px 250px 450px;
+    animation: ${AnimationImages} 1s;
 
     @media (min-width:${props=>props.theme.breakPoint}){
         
