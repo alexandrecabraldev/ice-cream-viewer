@@ -2,6 +2,7 @@ import styled, { keyframes } from "styled-components";
 
 
 const AnimationTextImages = keyframes`
+
     0%{
         transform: translateY(-25px);
         opacity: 0;
@@ -10,6 +11,7 @@ const AnimationTextImages = keyframes`
     100%{
         transform: translateY(0px);
         opacity: 1;
+        
     }
 `;
 
@@ -33,8 +35,10 @@ const ContainerImage = styled.div<PropsImage>`
         border-radius: 20px;
         line-height: 2.125rem;
         font-size: 1.25rem;
+        opacity: 0;
 
-        animation: ${AnimationTextImages};
+        animation: ${AnimationTextImages} 1s forwards;
+        animation-delay: 0.5s;
     }
 `;
 

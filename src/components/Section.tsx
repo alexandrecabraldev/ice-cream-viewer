@@ -39,6 +39,7 @@ const ContainerPhotos = styled.div`
     display: grid;
     gap: 2rem;
     grid-template-rows: 250px 450px 250px 450px;
+
     animation: ${AnimationImages} 1s;
 
     @media (min-width:${props=>props.theme.breakPoint}){
