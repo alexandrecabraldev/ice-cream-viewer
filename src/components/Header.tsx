@@ -29,6 +29,7 @@ const HeaderContainer = styled.div`
     @media (min-width:${props=>props.theme.breakPoint}) {
 
         max-width: 100%;
+        border-radius: 20px 0 0 20px;
         
         h1{
             font-size: 3rem;

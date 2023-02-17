@@ -14,5 +14,8 @@ export const ContainerApplication = styled.main`
         //max-height: 100vh;
         //max-width: 105.3125rem;
         //margin: auto;
+        border-radius: 20px;
+        //overflow: hidden;
+
     }
 `;
