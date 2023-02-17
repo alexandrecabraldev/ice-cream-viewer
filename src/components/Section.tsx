@@ -69,8 +69,8 @@ const ContainerPhotos = styled.div`
         grid-template-columns: auto auto auto;
         grid-template-rows: 150px 200px 150px;
 
-        grid-template-areas: "A B ."
-                             "C B ."
+        grid-template-areas: "A B B"
+                             "C B B"
                              "C D D";
 
          div:nth-child(1){
