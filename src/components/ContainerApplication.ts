@@ -4,6 +4,7 @@ export const ContainerApplication = styled.main`
     background-color: ${props=>props.theme.bodyColor};
     max-width: 24rem;
     margin: 0 auto;
+    //height: 0;
 
     @media (min-width:${props=>props.theme.breakPoint}) {
         display: grid;

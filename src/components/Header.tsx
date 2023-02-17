@@ -1,12 +1,13 @@
 import styled from "styled-components";
 import Logo from "../assets/logo.svg";
-import Logo2 from "../assets/logo2.svg"
+import Logo2 from "../assets/logo2.svg";
 
 const HeaderContainer = styled.div`
     display: flex;
     flex-direction: column;
     max-width: 24rem;  
     background-color: ${props=>props.theme.headerColor};
+    
     
 
     h1{
