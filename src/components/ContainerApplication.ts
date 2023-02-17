@@ -9,8 +9,9 @@ export const ContainerApplication = styled.main`
         display: grid;
         grid-template-columns: 1fr 2.5fr;
         max-width: 80rem;
+        margin: 0 auto;
+        //max-height: 100vh;
         //max-width: 105.3125rem;
         //margin: auto;
-
     }
 `;

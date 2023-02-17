@@ -5,7 +5,7 @@ import Logo2 from "../assets/logo2.svg"
 const HeaderContainer = styled.div`
     display: flex;
     flex-direction: column;
-    max-width: 24rem;
+    max-width: 24rem;  
     background-color: ${props=>props.theme.headerColor};
     
 
@@ -38,10 +38,10 @@ const HeaderContainer = styled.div`
             display: initial;
             text-align: center;
             font-family: 'Palanquin', sans-serif;
-            font-size: 1.5rem;
+            font-size: 1rem;
             color: ${props=>props.theme.white};
-            padding: 0 0.8rem;
-            line-height: 2rem
+            padding: 0 3rem;
+            line-height: 1.5rem
         }
 
     }
