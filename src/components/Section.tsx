@@ -23,7 +23,8 @@ const ContainerSection = styled.div`
 
     @media (min-width:${props=>props.theme.breakPoint}) {
 
-        padding: 4rem 5.875rem 0;
+        padding: 4rem 8% 0;
+        
         p{
            display: none;
         }

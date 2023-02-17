@@ -29,7 +29,20 @@ const HeaderContainer = styled.div`
     @media (min-width:${props=>props.theme.breakPoint}) {
 
         max-width: 100%;
+        max-height: 46.25rem;
         border-radius: 20px 0 0 20px;
+        overflow-y: auto;
+
+        ::-webkit-scrollbar{
+            border-radius: 99px;
+            background-color: transparent;
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-thumb{
+            background-color: ${props=>props.theme.headerTitleColor};
+            border-radius: 99px;
+        }
         
         h1{
             font-size: 3rem;
