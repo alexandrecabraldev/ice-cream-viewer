@@ -7,8 +7,6 @@ const HeaderContainer = styled.div`
     flex-direction: column;
     max-width: 24rem;  
     background-color: ${props=>props.theme.headerColor};
-    
-    
 
     h1{
         text-transform: uppercase;

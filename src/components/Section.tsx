@@ -64,17 +64,24 @@ const ContainerPhotos = styled.div`
 
     animation: ${AnimationImages} 1s;
 
+    div:nth-child(5){
+        display: none;
+    } 
+    div:nth-child(6){
+        display: none;  
+    } 
+
     @media (min-width:${props=>props.theme.breakPoint}){
         
         grid-template-columns: auto auto auto;
         grid-template-rows: 150px 200px 150px;
 
-        grid-template-areas: "A B B"
-                             "C B B"
-                             "C D D";
+        grid-template-areas: "A B E"
+                             "C B F"
+                             "C D F";
 
          div:nth-child(1){
-            grid-area: A;
+            grid-area: A; 
         }
          div:nth-child(2){
             grid-area: B;
@@ -83,7 +90,18 @@ const ContainerPhotos = styled.div`
             grid-area: C;
         }
         div:nth-child(4){
-            grid-area: D;
+            grid-area: D;    
+        } 
+
+
+        //Layouts das imagens duplicadas
+        div:nth-child(5){
+            display: initial;
+            grid-area: E;    
+        } 
+        div:nth-child(6){
+            display: initial;
+            grid-area: F;    
         } 
     }
 
@@ -103,6 +121,16 @@ export function Section(){
                 <Image link={"https://images.unsplash.com/photo-1629385697093-57be2cc97fa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1061&q=80"} titleLinks={"casquinha"}/>
 
                 <Image link={"https://images.unsplash.com/photo-1580915411954-282cb1b0d780?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"} titleLinks={"casquinha"}/>
+
+
+
+
+
+                
+                <Image link={"https://images.unsplash.com/photo-1488900128323-21503983a07e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"} titleLinks={"paletas"}/>
+
+                <Image link={"https://images.unsplash.com/photo-1629385697093-57be2cc97fa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1061&q=80"} titleLinks={"casquinha"}/>
+                
 
             </ContainerPhotos>
 
